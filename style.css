@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #f9f9f9;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    padding: 45px 0;
+    background-color:rgb(160, 227, 205);
+    display: flex;
+}
+
+.img-container{
+    background-color: white;
+    padding: 16px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.title-container{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.title-container h1, .title-container h2{
+    color: rgb(6, 87, 119);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title-container h2{
+    font-size: 20px;
+    color: #1648be;
+    margin-top: 12px;
+}
+.img, .avatar{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.container{
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+}
+.sider,.content{
+    background-color: rgb(178, 240, 231);
+    padding: 20px 0;
+    width: 100px;
+}
+.sider{
+    width: calc(40% - 20px);
+    margin-right: 20px ;
+}
+.content {
+    flex-grow: 1;
+}
+.taf-fill{
+    background-color: rgb(24, 164, 224);
+    padding: 8px;
+    color:#f9f9f9;
+    font-size: 18px;
+    display: inline;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.tag-content{
+    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.tag-content ul {
+    margin: 0;
+    padding: 0;
+}
+.tag-content ul li {
+    list-style-type: none;
+    padding: 12px 0;
+}
+.progress-title{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+.progress-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(244, 236, 243);
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.progress {
+    width: 50%;
+    height: 10px;
+    background-color:rgb(8, 98, 7);
+}
+.tag {
+    font-size: 35px;
+    color:rgb(7, 7, 205);
+    padding: 10px 20px;
+    border-left: 14px solid #1648be;
+    margin-bottom: 18px;
+}
